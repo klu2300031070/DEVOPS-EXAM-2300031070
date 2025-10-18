@@ -35,6 +35,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./frontend-reactapp
-          file: ./frontend-reactapp/frontend.Dockerfile
+          file: ./frontend-reactapp/frontend.DockerFile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/2300031070-exam-frontend:final
