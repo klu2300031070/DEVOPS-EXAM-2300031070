@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: klu2300031070/2300031070-EXAM-BACKEND:final
+    image: klu2300031070/2300031070-exam-backend:final
     container_name: exam-springboot
  
     ports:
@@ -25,7 +25,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: klu2300031070/2300031070-EXAM-FRONTEND:final
+    image: klu2300031070/2300031070-exam-frontend:final
     container_name: exam-react
 
     ports:
